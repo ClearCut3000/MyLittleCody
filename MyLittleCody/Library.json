@@ -1,0 +1,22 @@
+ [
+    {
+      "id": 1,
+      "title": "Two Sum",
+      "category": "leetCode",
+      "difficulty": "easy",
+      "description": "Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.",
+      "solution": "func twoSum(_ nums: [Int], _ target: Int) -> [Int] {\n    var map = [Int: Int]()\n    for (i, num) in nums.enumerated() {\n        if let lastIndex = map[target - num] {\n            return [lastIndex, i]\n        }\n        map[num] = i\n    }\n    return []\n}",
+      "link": "none"
+    },
+    {
+      "id": 2,
+      "title": "Reverse Integer",
+      "category": "leetCode",
+      "difficulty": "easy",
+      "description": "Given a 32-bit signed integer, reverse digits of an integer.",
+      "solution": "func reverse(_ x: Int) -> Int {\n    var result = 0\n    var num = x\n    while num != 0 {\n        let digit = num % 10\n        num /= 10\n        result = result * 10 + digit\n    }\n    if result > Int32.max || result < Int32.min {\n        return 0\n    }\n    return result\n}",
+      "link": "none"
+    }
+  ]
+
+

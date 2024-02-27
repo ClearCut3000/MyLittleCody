@@ -11,6 +11,17 @@
 		360E60182B8BBE64002E2876 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360E60172B8BBE64002E2876 /* ContentView.swift */; };
 		360E601A2B8BBE66002E2876 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 360E60192B8BBE66002E2876 /* Assets.xcassets */; };
 		360E601D2B8BBE66002E2876 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 360E601C2B8BBE66002E2876 /* Preview Assets.xcassets */; };
+		360E602B2B8BC9B4002E2876 /* SearchSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360E602A2B8BC9B4002E2876 /* SearchSet.swift */; };
+		360E602D2B8BCA81002E2876 /* CodeBlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360E602C2B8BCA81002E2876 /* CodeBlockView.swift */; };
+		360E602F2B8BCAC2002E2876 /* Highlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360E602E2B8BCAC2002E2876 /* Highlight.swift */; };
+		3648EB0E2B8CBE6E00DCA0E1 /* Library.json in Resources */ = {isa = PBXBuildFile; fileRef = 3648EB0D2B8CBE6E00DCA0E1 /* Library.json */; };
+		3648EB102B8CBF9C00DCA0E1 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3648EB0F2B8CBF9C00DCA0E1 /* Task.swift */; };
+		3648EB122B8CBFCB00DCA0E1 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3648EB112B8CBFCB00DCA0E1 /* DataManager.swift */; };
+		3648EB142B8CC0DC00DCA0E1 /* AppStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3648EB132B8CC0DC00DCA0E1 /* AppStateManager.swift */; };
+		3648EB182B8CF7FC00DCA0E1 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3648EB172B8CF7FC00DCA0E1 /* MainView.swift */; };
+		3648EB1A2B8CF83A00DCA0E1 /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3648EB192B8CF83A00DCA0E1 /* SideMenu.swift */; };
+		36DDA6C92B8E23E7005160ED /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DDA6C82B8E23E7005160ED /* CustomTabView.swift */; };
+		36DDA6CC2B8E6A56005160ED /* TasksListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DDA6CB2B8E6A56005160ED /* TasksListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +30,17 @@
 		360E60172B8BBE64002E2876 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		360E60192B8BBE66002E2876 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		360E601C2B8BBE66002E2876 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		360E602A2B8BC9B4002E2876 /* SearchSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchSet.swift; sourceTree = "<group>"; };
+		360E602C2B8BCA81002E2876 /* CodeBlockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeBlockView.swift; sourceTree = "<group>"; };
+		360E602E2B8BCAC2002E2876 /* Highlight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Highlight.swift; sourceTree = "<group>"; };
+		3648EB0D2B8CBE6E00DCA0E1 /* Library.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Library.json; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.json; };
+		3648EB0F2B8CBF9C00DCA0E1 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		3648EB112B8CBFCB00DCA0E1 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		3648EB132B8CC0DC00DCA0E1 /* AppStateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStateManager.swift; sourceTree = "<group>"; };
+		3648EB172B8CF7FC00DCA0E1 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		3648EB192B8CF83A00DCA0E1 /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
+		36DDA6C82B8E23E7005160ED /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
+		36DDA6CB2B8E6A56005160ED /* TasksListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +73,21 @@
 		360E60142B8BBE64002E2876 /* MyLittleCody */ = {
 			isa = PBXGroup;
 			children = (
+				36DDA6CA2B8E67E7005160ED /* Tabs */,
 				360E60152B8BBE64002E2876 /* MyLittleCodyApp.swift */,
 				360E60172B8BBE64002E2876 /* ContentView.swift */,
 				360E60192B8BBE66002E2876 /* Assets.xcassets */,
 				360E601B2B8BBE66002E2876 /* Preview Content */,
+				360E602A2B8BC9B4002E2876 /* SearchSet.swift */,
+				360E602C2B8BCA81002E2876 /* CodeBlockView.swift */,
+				360E602E2B8BCAC2002E2876 /* Highlight.swift */,
+				3648EB0D2B8CBE6E00DCA0E1 /* Library.json */,
+				3648EB0F2B8CBF9C00DCA0E1 /* Task.swift */,
+				3648EB112B8CBFCB00DCA0E1 /* DataManager.swift */,
+				3648EB132B8CC0DC00DCA0E1 /* AppStateManager.swift */,
+				3648EB172B8CF7FC00DCA0E1 /* MainView.swift */,
+				3648EB192B8CF83A00DCA0E1 /* SideMenu.swift */,
+				36DDA6C82B8E23E7005160ED /* CustomTabView.swift */,
 			);
 			path = MyLittleCody;
 			sourceTree = "<group>";
@@ -65,6 +98,14 @@
 				360E601C2B8BBE66002E2876 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		36DDA6CA2B8E67E7005160ED /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				36DDA6CB2B8E6A56005160ED /* TasksListView.swift */,
+			);
+			path = Tabs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +124,8 @@
 			dependencies = (
 			);
 			name = MyLittleCody;
+			packageProductDependencies = (
+			);
 			productName = MyLittleCody;
 			productReference = 360E60122B8BBE64002E2876 /* MyLittleCody.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +154,8 @@
 				Base,
 			);
 			mainGroup = 360E60092B8BBE64002E2876;
+			packageReferences = (
+			);
 			productRefGroup = 360E60132B8BBE64002E2876 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,6 +170,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3648EB0E2B8CBE6E00DCA0E1 /* Library.json in Resources */,
 				360E601D2B8BBE66002E2876 /* Preview Assets.xcassets in Resources */,
 				360E601A2B8BBE66002E2876 /* Assets.xcassets in Resources */,
 			);
@@ -137,7 +183,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				360E602B2B8BC9B4002E2876 /* SearchSet.swift in Sources */,
+				3648EB182B8CF7FC00DCA0E1 /* MainView.swift in Sources */,
+				360E602D2B8BCA81002E2876 /* CodeBlockView.swift in Sources */,
+				36DDA6CC2B8E6A56005160ED /* TasksListView.swift in Sources */,
 				360E60182B8BBE64002E2876 /* ContentView.swift in Sources */,
+				3648EB122B8CBFCB00DCA0E1 /* DataManager.swift in Sources */,
+				360E602F2B8BCAC2002E2876 /* Highlight.swift in Sources */,
+				3648EB142B8CC0DC00DCA0E1 /* AppStateManager.swift in Sources */,
+				36DDA6C92B8E23E7005160ED /* CustomTabView.swift in Sources */,
+				3648EB1A2B8CF83A00DCA0E1 /* SideMenu.swift in Sources */,
+				3648EB102B8CBF9C00DCA0E1 /* Task.swift in Sources */,
 				360E60162B8BBE64002E2876 /* MyLittleCodyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -197,7 +253,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -254,7 +310,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -280,6 +336,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -287,9 +344,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nnv.MyLittleCody;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -309,6 +370,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,9 +378,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nnv.MyLittleCody;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

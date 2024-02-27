@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct MyLittleCodyApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
+
+  let appStateManager = AppStateManager()
+
+  var body: some Scene {
+    WindowGroup {
+      ContentView()
+        .environmentObject(appStateManager)
     }
+  }
 }
